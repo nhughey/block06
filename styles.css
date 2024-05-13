@@ -1,0 +1,63 @@
+/* Centers, colours, sets the font, and underlines the header */
+header {
+    text-align: center;
+    color: green;        
+    font-size: 24px;     
+    text-decoration: underline; 
+}
+h2 { /* This heading is used for the two main grocery list types: Pantry Items & Freezer Items */
+    font-weight: bold;          
+    text-align: center;
+    background-color: tan;      
+    padding: 10px;              
+    border: 1px solid;     
+    text-align: center;
+    width: 55%;
+}
+h3 {/* This heading is used for grocery subcategories, such as 'Greens' and 'Snacks' */
+    font-weight: bold;   
+    text-decoration: underline; 
+    padding: 10px;  
+    margin: 10px;  
+}      
+
+#canned, #dry-goods { /* First line of Item Lists, found under 'Pantry Items' */
+    position: relative;
+    background-color: lightgrey;        
+    padding: 10px;                        
+    border: 1px solid #ccc;  
+    margin: 10px;               
+    width: 25%;   
+    float: left;                   
+}
+#dry-goods{
+    margin-left: 25px;
+}
+
+#freezer-items{ /* Positions the 'Freezer Item' title below 'Pantry Items' */
+    position: absolute;
+    top: 40% ; 
+    width: 100%; 
+}
+#greens,#snacks { /* Second line of food item lists, found under 'Freezer Items'*/
+    position: relative;
+    background-color: lightgrey;          
+    padding: 10px;                        
+    border: 1px solid #ccc;              
+    margin: 10px;    
+    width: 25%;   
+    float: left;                   
+}
+#snacks{
+    margin-left: 25px;
+}
+#cannedfood{  /* Tried positioning the image, but it's not working */
+position: absolute;
+left: 30%;
+
+}
+footer {
+  margin-top: -50px;
+  position: relative;
+}
+
